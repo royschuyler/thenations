@@ -1,12 +1,13 @@
-/*
-
-Grill Template
-
-http://www.templatemo.com/free-website-templates/417-grill
-
-*/
-
 /*-- Basic --*/
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 .menu-items {
   list-style: none !important;
@@ -1253,6 +1254,11 @@ footer {
     margin-top: 60px;
     text-align: center;
   }
+
+  .img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 568px) {
@@ -1415,6 +1421,13 @@ footer {
   }
 }
 
-boxer
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+
+
+
 
 /*--- END RESPONSIVE ---*/
