@@ -8,8 +8,10 @@ http://www.templatemo.com/free-website-templates/417-grill
 
 /*-- Basic --*/
 .nations-logo {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
+  padding-left: 12%;
+  padding-bottom: 5%;
 }
 
 a {
@@ -89,7 +91,7 @@ p {
 }
 
 .boxer {
-  margin-top: -20%;
+  margin-top: -35%;
 
 }
 .main-menu ul {
@@ -1359,5 +1361,28 @@ footer {
   }
 }
 
+@media screen and (min-width: 395px) {
+
+  .boxer {
+  margin-top: -30%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 510px) {
+
+  .boxer {
+  margin-top: -20%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+boxer
 
 /*--- END RESPONSIVE ---*/
