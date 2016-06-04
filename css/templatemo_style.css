@@ -7,6 +7,11 @@ http://www.templatemo.com/free-website-templates/417-grill
 */
 
 /*-- Basic --*/
+.nations-logo {
+  width: 200px;
+  height: 200px;
+}
+
 a {
   text-decoration: none;
   color: #f78e21;
@@ -83,6 +88,10 @@ p {
   padding: 20px 0;
 }
 
+.boxer {
+  margin-top: -20%;
+
+}
 .main-menu ul {
   padding: 0px;
   margin: 0px;
