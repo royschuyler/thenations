@@ -119,6 +119,10 @@ p {
   color: #f78e21;
 }
 
+.main-footer {
+  margin-top: 0%;
+}
+
 .search-box {
   text-align: right;
   margin-top: 33px;
@@ -1328,7 +1332,21 @@ footer {
 
   .top-footer {
     display: none;
+    margin-top: -70%;
   }
+
+  .menu-items {
+    list-style: none;
+  }
+
+  .menu-items li {
+    padding-top: 10px;
+  }
+
+  .starter {
+    padding-left: 38%;
+  }
+
 
 }
 
