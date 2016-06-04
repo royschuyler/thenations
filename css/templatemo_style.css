@@ -7,6 +7,15 @@ http://www.templatemo.com/free-website-templates/417-grill
 */
 
 /*-- Basic --*/
+
+.menu-items {
+  list-style: none !important;
+}
+
+.menu-items li {
+  padding-top: 10px;
+}
+
 .nations-logo {
   width: 300px;
   height: 300px;
@@ -1336,7 +1345,7 @@ footer {
   }
 
   .menu-items {
-    list-style: none;
+    list-style: none !important;
   }
 
   .menu-items li {
@@ -1345,6 +1354,11 @@ footer {
 
   .starter {
     padding-left: 38%;
+  }
+
+  #wrapper {
+    border: solid black 1px !important;
+    /*margin-left: 20px !important;*/
   }
 
 
